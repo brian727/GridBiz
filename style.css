@@ -143,13 +143,14 @@ img {
 }
 
 .portfolio {
-    display: inline-flex;
+    display: grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax
+    grid-template-columns: repeat( minmax
     (200px, 9fr));
 }
 
 .portfolio img {
+    
     width: 100%;
     box-shadow: var(--shadow);
 }
